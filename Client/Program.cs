@@ -19,8 +19,10 @@ namespace SelfHost
 
             string addr = "http://localhost:8080";
             Console.WriteLine("client for {0}", addr);
-
-            client.BaseAddress = new Uri(addr);
+            try
+            {
+                client.BaseAddress = new Uri(addr);
+            
             Console.WriteLine("----------\nGet menu list\n----------");
             GetMenu();
             Console.WriteLine("----------\nGet menu items by id\n----------");
@@ -43,6 +45,17 @@ namespace SelfHost
             
             Console.WriteLine("Press Enter to quit.");
             Console.ReadLine();
+            }
+            catch (AggregateException)
+            {
+                Console.WriteLine("Server not connected");
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Something wrong..");
+                Console.WriteLine(e.Message);
+
+            }
         }
      
 
