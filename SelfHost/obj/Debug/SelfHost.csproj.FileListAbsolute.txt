@@ -1,0 +1,13 @@
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\SelfHost.dll
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\SelfHost.pdb
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\Newtonsoft.Json.dll
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Net.Http.Formatting.dll
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Web.Http.dll
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Web.Http.SelfHost.dll
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\Newtonsoft.Json.xml
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Net.Http.Formatting.xml
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Web.Http.xml
+D:\SelfHost\SelfHost\SelfHost\bin\Debug\System.Web.Http.SelfHost.xml
+D:\SelfHost\SelfHost\SelfHost\obj\Debug\SelfHost.csprojResolveAssemblyReference.cache
+D:\SelfHost\SelfHost\SelfHost\obj\Debug\SelfHost.dll
+D:\SelfHost\SelfHost\SelfHost\obj\Debug\SelfHost.pdb
