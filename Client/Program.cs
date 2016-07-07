@@ -26,7 +26,7 @@ namespace SelfHost
             Console.WriteLine("----------\nGet menu items by id\n----------");
             GetMenuItem(3);
             GetMenuItem(1);
-            GetMenuItem(2);
+            GetMenuItem(6);
            
             Console.WriteLine("----------\nAdd new item\n----------");
             AddMenuItem(item1);
@@ -68,7 +68,15 @@ namespace SelfHost
             resp.EnsureSuccessStatusCode();
 
             var menuItem = resp.Content.ReadAsAsync<SelfHost.MenuItem>().Result;
-            Console.WriteLine("{0}\t{1}\t{2} ", menuItem.Id, menuItem.Name, menuItem.Price);
+            if (menuItem != null)
+            {
+                Console.WriteLine("{0}\t{1}\t{2} ", menuItem.Id, menuItem.Name, menuItem.Price);
+            }
+            else
+            {
+                Console.WriteLine("Error get menu by id = {0}", id);
+            }
+            
         }
 
         private static void AddMenuItem(MenuItem item)

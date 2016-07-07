@@ -34,6 +34,7 @@ namespace SelfHost
         public MenuItem Get(int id)
         {
             return list.FirstOrDefault(p => p.Id == id);
+           
         }
 
 
