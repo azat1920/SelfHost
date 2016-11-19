@@ -26,5 +26,5 @@ h.StartSelfHost();
 
 В решении размещены 2 консольных приложения Server, Client  и библиотека классов SelfHost
 
-    Server: запускает  SelfHost
-    Client: выполняет все перечисленные методы.
+Server: запускает  SelfHost
+Client: выполняет все перечисленные методы.
