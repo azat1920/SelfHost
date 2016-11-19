@@ -25,5 +25,6 @@ h.StartSelfHost();
 доступ к элементам menu осуществляется по адресу http://localhost:8080/api/menu
 
 В решении размещены 2 консольных приложения Server, Client  и библиотека классов SelfHost
+
 Server: запускает  SelfHost
 Client: выполняет все перечисленные методы.
